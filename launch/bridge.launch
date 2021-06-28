@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="thinkgear_bridge" type="thinkgear_node" name="EEG" output="screen">
+    <rosparam file="$(find thinkgear_bridge)/params/thinkgear.yaml"/>
+	</node>
+</launch>
